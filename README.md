@@ -1,6 +1,7 @@
 <img src="./flamingo.png" width="500px"></img>
 
-## 🦩 Flamingo - Pytorch
+## 🦩 Flamingo - Pytorch, SoGood
+
 
 Implementation of <a href="https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model">Flamingo</a>, state-of-the-art few-shot visual question answering attention net, in Pytorch. It will include the perceiver resampler (including the scheme where the learned queries contributes keys / values to be attended to, in addition to media embeddings), the specialized masked cross attention blocks, and finally the tanh gating at the ends of the cross attention + corresponding feedforward blocks
 
